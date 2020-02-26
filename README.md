@@ -4,10 +4,10 @@ Dense Matrix Multiplication (DMM) is one of the core components in many scientif
 
 
 ## Algorithms
- - Naive
- - Coalesced memory acceses of A
- - Reduced memory accesses
- - Using cuBLAS
+ - __Naive:__ Simple implementation where each thread just computes one element from the output matrix. 
+ - __Coalesced memory acceses of A:__ Load tiles of the input matrix A in the shared memory.
+ - __Reduced memory accesses:__ Load tiles of the input matrices A and B in the shared memory.
+ - __Using cuBLAS library__
 
 
 ## Brief results
@@ -16,9 +16,12 @@ Dense Matrix Multiplication (DMM) is one of the core components in many scientif
 
 
 ## Project Structure
-
-
-
+ - __cuda:__
+ - __common:__ 
+ - __make:__
+ - __plots:__
+ - __results:__
+ - __report:__
 
 ## Contributors:
 - [Antoniadis Panagiotis](https://github.com/PanosAntoniadis)
