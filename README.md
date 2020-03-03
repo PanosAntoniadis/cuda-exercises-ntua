@@ -33,27 +33,23 @@ All experiments were performed in a __NVIDIA Tesla K40c__ (kepler architecture a
 - Performance in different problem sizes
 
  <p float="left">
-  <img src="plots/naive1.png" width="280"/>
-  <img src="plots/naive2.png" width="280"/>
-  <img src="plots/naive3.png" width="280"/>
+  <img src="plots/naive1.png" width="420"/>
+  <img src="plots/naive2.png" width="420"/>
 </p>
 
  <p float="left">
-  <img src="plots/coal1.png" width="280"/>
-  <img src="plots/coal2.png" width="280"/>
-  <img src="plots/coal3.png" width="280"/>
+  <img src="plots/coal1.png" width="420"/>
+  <img src="plots/coal2.png" width="420"/>
 </p>
 
  <p float="left">
-  <img src="plots/red1.png" width="280"/>
-  <img src="plots/red2.png" width="280"/>
-  <img src="plots/red3.png" width="280"/>
+  <img src="plots/red1.png" width="420"/>
+  <img src="plots/red2.png" width="420"/>
 </p>
 
  <p float="left">
-  <img src="plots/cublas1.png" width="280"/>
-  <img src="plots/cublas2.png" width="280"/>
-  <img src="plots/cublas3.png" width="280"/>
+  <img src="plots/cublas1.png" width="420"/>
+  <img src="plots/cublas2.png" width="420"/>
 </p>
 
 
