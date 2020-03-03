@@ -1,0 +1,16 @@
+make[1]: Warning: File `dmm.h' has modification time 76 s in the future
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z19dmm_gpu_coalesced_APKfS0_Pfmmm' for 'sm_35'
+ptxas info    : Function properties for _Z19dmm_gpu_coalesced_APKfS0_Pfmmm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 1024 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13dmm_gpu_naivePKfS0_Pfmmm' for 'sm_35'
+ptxas info    : Function properties for _Z13dmm_gpu_naivePKfS0_Pfmmm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22dmm_gpu_reduced_globalPKfS0_Pfmmm' for 'sm_35'
+ptxas info    : Function properties for _Z22dmm_gpu_reduced_globalPKfS0_Pfmmm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 29 registers, 2048 bytes smem, 368 bytes cmem[0]
+ptxas info    : 0 bytes gmem
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
